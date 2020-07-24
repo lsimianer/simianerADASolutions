@@ -1,122 +1,54 @@
-/* google font */
-/* @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&family=Ubuntu:wght@500&display=swap');
-
-/* keyframes begin */
-@keyframes pulse-white {
-    0% {
-        transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
-    }
-
-    70% {
-        transform: scale(1);
-        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
-    }
-
-    100% {
-        transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
-    }
-}
-
 body {
-    background-image:
-        linear-gradient(to top, rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.651)),
-        url(./images/darkhand.jpeg);
-    background-position: fixed;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: x-large;
+}
+.fixed{
+    position: sticky;
 }
 
-#navbarText {
-    color: white;
-}
-
-#jumboHeader {
-    background-image:
-        linear-gradient(to bottom, rgba(7, 7, 7, 0.52), rgba(0, 0, 0, 0.986)),
-        url(./images/codebg.jpeg);
-    margin-bottom: 0;
-}
-
-.jumboHeaderText {
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
+.center {
     text-align: center;
 }
 
-.underlined {
-    text-decoration: underline;
-}
-
-#jumboHeaderButton {
-    background-color: transparent;
-    color: white;
+#controlBtnBlock {
     display: flex;
     justify-content: center;
+}
+
+#introText {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.ctrlBtn {
+    margin: 5% 2% 0 2%;
+    height: 8rem;
+    width: 12rem;
+    font-size: 2rem;
+    border: 2mm ridge rgb(0, 0, 0);
+
+}
+
+.ctrlBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+#pageContent {
     margin-top: 5%;
-    animation: pulse-white 7s infinite;
+}
+.bottom{
+    margin-bottom: 10%;
 }
 
+/* global style from controllers */
 
-#mainBodyContainer {
-    margin-top: 10%;
-    margin-bottom: 15%;
+.border {
+    border: 2mm ridge rgba(0, 14, 141, 0.795);
 }
-
-.containerMainHead {
+.biggerText{
+    font-size: 10rem;
+}
+.Contrast{
+    background: black;
     color: white;
-    text-align: center;
-    margin-bottom: 5%;
-}
-
-.containerMainBody {
-    font-size: large;
-    color: rgb(172, 169, 169);
-}
-
-#CTAButton {
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-
-#modalTriggerBtn {
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-
-#modalContactBtn {
-    display: flex;
-    justify-content: center;
-}
-
-.modal-footer {
-    display: flex;
-    justify-content: center;
-}
-
-/*  media queries  */
-@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
-    body {
-        background-image:
-            linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
-            url(./images/darkhand.jpeg);
-    }
-
-    .jumboHeaderText {
-        margin-top: 33%;
-    }
-}
-
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
-    body {
-        background-image:
-            linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
-            url(./images/darkhand.jpeg);
-    }
-    .jumboHeaderText {
-        margin-top: 33%;
-    }
 }
