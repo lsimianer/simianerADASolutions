@@ -1,0 +1,95 @@
+body,
+html {
+  /* overflow-x: hidden; */
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Roboto Mono', monospace;
+  height: 100%;
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+#navCon {
+  background-color: black;
+  height: 100%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  text-align: center;
+}
+
+#navLogo {
+  height: 100%;
+
+}
+
+#bodyCon1 {
+  width: 95%;
+}
+
+#oneOfThreeCon {
+  background-color: rgba(128, 128, 128, 0.11);
+  width: 90%;
+  text-align: center;
+  min-height: 105%;
+  box-shadow: 11px 1px 0px #999,
+    12px 2px 0px #999,
+    13px 3px 0px #999,
+    14px 4px 0px #999,
+    15px 5px 0px #999,
+    16px 6px 0px #999;
+  transition: 1s;
+
+}
+
+#oneOfThreeCon:hover {
+  box-shadow: 1px 1px 0px #999;
+
+}
+
+#oneOfThreeLogo {
+  float: left;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#footerCon {
+  background-color: black;
+  color: white;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  height: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#footerText {
+  color: white;
+}
+
+#bodyCon1 {
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.021);
+  width: 100%;
+  margin-top: 0%;
+  border-radius: 25px;
+}
+
+#learnMoreBtn {
+  background-color: rgb(3, 105, 3);
+  color: white;
+  letter-spacing: 2px;
+  transition: 1s;
+}
+
+#learnMoreBtn:hover {
+  letter-spacing: 5px;
+  color: rgb(3, 105, 3);
+  background-color: white;
+}
+
+/* .cardHeader {
+  text-shadow: rgb(3, 105, 3) 2px 0 0px;
+} */
