@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/simianerADASolutions/static/css/main.51e66f0b.chunk.css",
+    "main.js": "/simianerADASolutions/static/js/main.837ec7a8.chunk.js",
+    "main.js.map": "/simianerADASolutions/static/js/main.837ec7a8.chunk.js.map",
+    "runtime-main.js": "/simianerADASolutions/static/js/runtime-main.936b0643.js",
+    "runtime-main.js.map": "/simianerADASolutions/static/js/runtime-main.936b0643.js.map",
+    "static/js/2.bb014903.chunk.js": "/simianerADASolutions/static/js/2.bb014903.chunk.js",
+    "static/js/2.bb014903.chunk.js.map": "/simianerADASolutions/static/js/2.bb014903.chunk.js.map",
+    "index.html": "/simianerADASolutions/index.html",
+    "precache-manifest.37fba790116caf6e083bc288861893b3.js": "/simianerADASolutions/precache-manifest.37fba790116caf6e083bc288861893b3.js",
+    "service-worker.js": "/simianerADASolutions/service-worker.js",
+    "static/css/main.51e66f0b.chunk.css.map": "/simianerADASolutions/static/css/main.51e66f0b.chunk.css.map",
+    "static/js/2.bb014903.chunk.js.LICENSE.txt": "/simianerADASolutions/static/js/2.bb014903.chunk.js.LICENSE.txt",
+    "static/media/REB2.png": "/simianerADASolutions/static/media/REB2.9d422bd2.png",
+    "static/media/govt.jpeg": "/simianerADASolutions/static/media/govt.307827ec.jpeg",
+    "static/media/shreddedPaper.jpg": "/simianerADASolutions/static/media/shreddedPaper.1b3aacd5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.936b0643.js",
+    "static/js/2.bb014903.chunk.js",
+    "static/css/main.51e66f0b.chunk.css",
+    "static/js/main.837ec7a8.chunk.js"
+  ]
+}
